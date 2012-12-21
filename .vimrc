@@ -7,7 +7,7 @@
 :set mouse=a
 :set guioptions-=r
 :set guioptions-=L
-:set guifont=Menlo:h14
+:set guifont=Monaco:h12
 
 :set wrap!
 colorscheme wombat256mod

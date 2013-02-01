@@ -10,15 +10,19 @@
 :set guifont=Monaco:h12
 
 :set wrap!
-colorscheme wombat256mod
-"colorscheme solarized
-
+colorscheme Monokai
 
 call pathogen#infect()
 " Give a shortcut key to NERD Tree
 map <leader><tab> :NERDTreeToggle<cr>
 "set syn=slate
 
+
+" move the cursor in insert mode
+imap <C-h> <C-o>h
+imap <C-j> <C-o>j
+imap <C-k> <C-o>k
+imap <C-l> <C-o>l
 
 
 " Erick Belfort

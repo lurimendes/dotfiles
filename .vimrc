@@ -10,11 +10,13 @@
 :set guifont=Monaco:h12
 
 :set wrap!
-colorscheme Monokai
+colorscheme solarized
 
 call pathogen#infect()
 " Give a shortcut key to NERD Tree
-map <leader><tab> :NERDTreeToggle<cr>
+nnoremap <leader><tab> :NERDTreeToggle<cr>
+" Shortcut to CommandT
+nnoremap <leader>g :CommandT<cr>
 "set syn=slate
 
 

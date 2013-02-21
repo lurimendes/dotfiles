@@ -10,7 +10,7 @@
 :set guifont=Monaco:h12
 
 :set wrap!
-colorscheme solarized
+colorscheme Molokai
 
 call pathogen#infect()
 " Give a shortcut key to NERD Tree

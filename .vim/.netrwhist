@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/luizaugustoferreira/Sites/natal-boulevard-facebook-app'
-let g:netrw_dirhist_2='/Users/luizaugustoferreira/.vim/snippets'
-let g:netrw_dirhist_3='/Users/luizaugustoferreira/Sites'
-let g:netrw_dirhist_4='/Users/luizaugustoferreira/Workspace/boulevard-shopping'
-let g:netrw_dirhist_5='/Users/luizaugustoferreira/Workspace/dotfiles'
-let g:netrw_dirhist_6='/Users/luizaugustoferreira/Workspace/construtora-passos/app/Config'
-let g:netrw_dirhist_7='/Applications/MAMP'
-let g:netrw_dirhist_8='/Users/luizaugustoferreira/Workspace/plataforma-clientes/app'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/luizaugustoferreira/Workspace'
+let g:netrw_dirhist_2='/Users/luizaugustoferreira/.vim/colors'

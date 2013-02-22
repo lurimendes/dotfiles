@@ -27,7 +27,6 @@ imap <C-k> <C-o>k
 imap <C-l> <C-o>l
 
 
-" Erick Belfort
 
 
 "set nocompatible ""Disable vi compatibility

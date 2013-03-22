@@ -17,6 +17,7 @@ call pathogen#infect()
 nnoremap <leader><tab> :NERDTreeToggle<cr>
 " Shortcut to CommandT
 nnoremap <leader>g :CommandT<cr>
+nnoremap <leader>h :CommandTBuffer<cr>
 "set syn=slate
 
 
@@ -27,6 +28,8 @@ imap <C-k> <C-o>k
 imap <C-l> <C-o>l
 
 
+" Restore Easy motion to one comma 
+let g:EasyMotion_leader_key = '<Leader>'
 
 
 "set nocompatible ""Disable vi compatibility

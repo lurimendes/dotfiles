@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/luizaugustoferreira/Workspace'
 let g:netrw_dirhist_2='/Users/luizaugustoferreira/.vim/colors'
 let g:netrw_dirhist_3='/Applications'
+let g:netrw_dirhist_4='/Users/luizaugustoferreira/.ssh'
+let g:netrw_dirhist_5='/Users/luizaugustoferreira/Sites/portfolio-juliana-cunha'

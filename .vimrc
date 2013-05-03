@@ -10,7 +10,6 @@
 :set guifont=Monaco:h12
 
 :set wrap!
-colorscheme solarized
 
 call pathogen#infect()
 " Give a shortcut key to NERD Tree
@@ -43,14 +42,13 @@ let g:EasyMotion_leader_key = '<Leader>'
 "set mouse=nicr
 
 "Colorscheme 
-"let g:solarized_visibility="low"
+let g:solarized_visibility="low"
+colorscheme solarized
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_theme='long'
+let g:Powerline_colorscheme='solarized16_dark'
 
-
-"set background=dark
-"colorscheme solarized
-
-
-"Layout formart
+"Layout format
 set nu
 set ai
 set lcs=tab:>-,eol:$

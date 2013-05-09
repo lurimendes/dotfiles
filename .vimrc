@@ -42,7 +42,6 @@ let g:EasyMotion_leader_key = '<Leader>'
 "set mouse=nicr
 
 "Colorscheme 
-let g:solarized_visibility="low"
 colorscheme solarized
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'

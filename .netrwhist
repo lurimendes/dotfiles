@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/luizaugustoferreira/Sites/letsrock-hotsite'
-let g:netrw_dirhist_2='/Users/luizaugustoferreira/Workspace/rcdigital-jobs/application'
-let g:netrw_dirhist_3='/Users/luizaugustoferreira/Library/Messages/Archive/2012-07-27'

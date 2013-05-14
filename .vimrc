@@ -42,10 +42,9 @@ let g:EasyMotion_leader_key = '<Leader>'
 "set mouse=nicr
 
 "Colorscheme 
-colorscheme solarized
+colorscheme badwolf
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
-let g:Powerline_colorscheme='solarized16_dark'
 
 "Layout format
 set nu

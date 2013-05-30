@@ -1,4 +1,0 @@
-dotfiles
-========
-
-Terminal config files

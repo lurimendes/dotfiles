@@ -7,7 +7,7 @@
 :set mouse=a
 :set guioptions-=r
 :set guioptions-=L
-:set guifont=Monaco:h12
+:set guifont=Inconsolata\-dz\ for\ Powerline:h12
 
 :set wrap!
 
@@ -42,7 +42,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 "set mouse=nicr
 
 "Colorscheme 
-colorscheme badwolf
+colorscheme Molokai
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
 

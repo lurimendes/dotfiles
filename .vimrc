@@ -9,7 +9,7 @@
 :set guioptions-=L
 :set guifont=Inconsolata\-dz\ for\ Powerline:h12
 
-:set wrap!
+:set wrap
 
 call pathogen#infect()
 " Give a shortcut key to NERD Tree

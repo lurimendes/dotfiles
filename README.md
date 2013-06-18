@@ -7,10 +7,10 @@
 
 ### Colorschemes
 
-* Molokai (actual w/ some changes)
+* [Molokai](https://github.com/tomasr/molokai "Molokai") (actual w/ some changes)
 ![vim colorscheme](http://s14.postimg.org/4xurgl3m9/mvim.png)
-* Monokai 
-* BadWolf
+* [Monokai](https://github.com/sickill/vim-monokai "Monokai")
+* [BadWolf](https://github.com/sjl/badwolf "BadWolf")
 * CandyMan
 * CodeSchool
 * GitHub

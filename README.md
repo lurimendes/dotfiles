@@ -24,12 +24,12 @@
 
 ### Plugins
 
-* Nerdtree
-* SnipMate
-* ZenCoding
-* JS Hint
-* Command + T
-* Powerline
-* EasyMotion
-* ack.vim
+* [Nerdtree](https://github.com/scrooloose/nerdtree "Nerdtree")
+* [SnipMate](https://github.com/msanders/snipmate.vim "SnipMate")
+* [ZenCoding](https://github.com/mattn/zencoding-vim "ZenCoding")
+* [JS Hint](https://github.com/walm/jshint.vim "JS Hint")
+* [Command + T](https://github.com/wincent/Command-T "Command + T")
+* [Powerline](https://github.com/Lokaltog/powerline "Powerline")
+* [EasyMotion](https://github.com/Lokaltog/vim-easymotion "EasyMotion")
+* [Ack.vim](https://github.com/mileszs/ack.vim "Ack.vim")
 

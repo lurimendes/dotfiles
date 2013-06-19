@@ -11,16 +11,16 @@
 ![vim colorscheme](http://s14.postimg.org/4xurgl3m9/mvim.png)
 * [Monokai](https://github.com/sickill/vim-monokai "Monokai")
 * [BadWolf](https://github.com/sjl/badwolf "BadWolf")
-* CandyMan
-* CodeSchool
-* GitHub
-* Mustang
-* Soda
-* Solarized
-* Wombat
-* Wombat256
-* Wombat256mod
-* Zenburn
+* [CandyMan](https://github.com/vim-scripts/candyman.vim "CandyMan")
+* [CodeSchool](https://github.com/fromonesrc/codeschool.vim "CodeSchool")
+* [GitHub](https://github.com/nono/github_vim_theme "GitHub")
+* [Mustang](https://github.com/croaker/mustang-vim "Mustang")
+* [Soda](https://github.com/DAddYE/soda.vim "Soda")
+* [Solarized](https://github.com/altercation/solarized "Solarized")
+* [Wombat](https://github.com/vim-scripts/Wombat "Wombat")
+* [Wombat256](https://github.com/vim-scripts/wombat256.vim "Wombat256")
+* [Wombat256mod](https://github.com/newzealandpaul/wombat256mod "Wombat256mod")
+* [Zenburn](https://github.com/jnurmine/Zenburn "Zenburn")
 
 ### Plugins
 

@@ -48,3 +48,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/luizaugustoferreira/.rvm/bin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Aliases
+alias dvup='fab dev update'
+alias prup='fab prod update'

@@ -68,9 +68,6 @@ let g:EasyMotion_leader_key = '<Leader>'
 " =======================================================================
 
 colorscheme Molokai
-if has('gui_running')
-    set transparency=2
-endif
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
 

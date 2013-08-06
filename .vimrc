@@ -67,7 +67,9 @@ let g:EasyMotion_leader_key = '<Leader>'
 "     Styling
 " =======================================================================
 
-colorscheme Molokai
+set background=dark
+colorscheme solarized
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
+let g:Powerline_colorscheme='solarized16_dark'
 

@@ -8,7 +8,7 @@
 ### Colorschemes
 
 * [Solarized](https://github.com/altercation/solarized "Solarized")
-![vim colorscheme](http://s23.postimg.org/694znyz8b/Screen_Shot_2013_08_14_at_12_16_46_AM.png)
+![vim colorscheme](http://s13.postimg.org/t98fkjks7/Screen_Shot_2013_08_14_at_12_16_46_AM.png)
 * [Molokai](https://github.com/tomasr/molokai "Molokai") (actual w/ some changes)
 * [Monokai](https://github.com/sickill/vim-monokai "Monokai")
 * [BadWolf](https://github.com/sjl/badwolf "BadWolf")

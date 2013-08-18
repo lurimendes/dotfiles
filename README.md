@@ -32,4 +32,6 @@
 * [Powerline](https://github.com/Lokaltog/powerline "Powerline")
 * [EasyMotion](https://github.com/Lokaltog/vim-easymotion "EasyMotion")
 * [Ack.vim](https://github.com/mileszs/ack.vim "Ack.vim")
+* [Vim-Signify](https://github.com/mhinz/vim-signify "Vim-Signify")
+
 

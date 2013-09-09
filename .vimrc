@@ -34,8 +34,8 @@ set softtabstop=4 "Allow deletion of whole tabs
 set backspace=indent,eol,start
 set clipboard+=unnamed
 set wildignore=*.o,*.obj,.git,*.png,*.PNG,*.JPG,*.jpg,*.GIF,*.gif,*.pdf,*.PDF,*.pyc,*.swp,*.bak
-autocmd Filetype html,htmldjango,eruby,ruby,xml,phtml,ctp set noexpandtab shiftwidth=2 tabstop=2 softtabstop=2
-autocmd Filetype js,javascript,php set noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
+autocmd Filetype html,htmldjango,eruby,ruby,xml,phtml,ctp set expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd Filetype js,javascript,php set expandtab shiftwidth=4 tabstop=4 softtabstop=4
 call pathogen#infect()
 
 "JS Lint
@@ -68,9 +68,6 @@ let g:EasyMotion_leader_key = '<Leader>'
 " =======================================================================
 
 colorscheme Molokai
-if has('gui_running')
-    set transparency=2
-endif
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
 

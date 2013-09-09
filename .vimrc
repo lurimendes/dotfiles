@@ -8,7 +8,7 @@ set number
 set mouse=a
 set guioptions-=r
 set guioptions-=L
-set guifont=Monaco:h12
+set guifont=Menlo\ for\ Powerline:h12
 set hidden
 set wrap!
 set encoding=utf-8 nobomb
@@ -70,5 +70,4 @@ let g:EasyMotion_leader_key = '<Leader>'
 colorscheme Molokai
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
-let g:Powerline_colorscheme='solarized16_dark'
 

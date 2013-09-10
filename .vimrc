@@ -8,7 +8,7 @@ set number
 set mouse=a
 set guioptions-=r
 set guioptions-=L
-set guifont=Monaco:h12
+set guifont=Menlo\ for\ Powerline:h12
 set hidden
 set wrap!
 set encoding=utf-8 nobomb

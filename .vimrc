@@ -8,7 +8,7 @@ set number
 set mouse=a
 set guioptions-=r
 set guioptions-=L
-set guifont=Menlo\ for\ Powerline:h12
+set guifont=Monaco:h12
 set hidden
 set wrap!
 set encoding=utf-8 nobomb
@@ -19,8 +19,8 @@ set nowritebackup
 set noswapfile
 set laststatus=2
 set ai
-let &lcs = 'tab:| ,eol:$'
-set list
+"let &lcs = 'tab:| ,eol:$'
+"set list
 set incsearch
 set hlsearch
 set ignorecase
@@ -67,7 +67,9 @@ let g:EasyMotion_leader_key = '<Leader>'
 "     Styling
 " =======================================================================
 
-colorscheme Molokai
+set background=dark
+colorscheme solarized
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_theme='long'
+let g:Powerline_colorscheme='solarized16_dark'
 

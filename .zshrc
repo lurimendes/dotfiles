@@ -53,3 +53,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias dvup='fab dev update'
 alias prup='fab prod update'
 alias vim='mvim -v'
+alias vimdiff='mvim -d'
+
+

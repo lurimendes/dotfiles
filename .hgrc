@@ -1,0 +1,24 @@
+[ui]
+username = username <email@host.com>
+verbose = True
+merge = vimdiff
+
+[extensions]
+color =
+progress =
+graphlog =
+hgext.extdiff =
+mq =
+
+# FTP Plugin
+hgext.ftp = /Users/YOURUSERNAME/.vim/mercurial_plugins/hgftp/ftp.py
+
+[progress]
+delay = 1.5
+
+[extdiff]
+cmd.vimdiff =
+
+[merge-tools]
+vimdiff.executable = vim
+vimdiff.args = -d $base $local $output $other +close +close

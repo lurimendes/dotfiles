@@ -20,8 +20,8 @@ set nowritebackup
 set noswapfile
 set laststatus=2
 set ai
-set lcs=tab:>-,eol:$
-set list
+"let &lcs = 'tab:| ,eol:$'
+"set list
 set incsearch
 set hlsearch
 set ignorecase

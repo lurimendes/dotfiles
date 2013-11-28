@@ -8,8 +8,9 @@ set number
 set mouse=a
 set guioptions-=r
 set guioptions-=L
-set guifont=Source\ Code\ Pro\ for\ Powerline:h12
-set linespace=2 
+set guioptions-=e
+set guifont=Monaco\ for\ Powerline:h12
+set linespace=1 
 set hidden
 set wrap!
 set encoding=utf-8 nobomb
@@ -20,8 +21,8 @@ set nowritebackup
 set noswapfile
 set laststatus=2
 set ai
-"let &lcs = 'tab:| ,eol:$'
-"set list
+let &lcs = 'tab:>-,eol:$'
+set list
 set incsearch
 set hlsearch
 set ignorecase
@@ -62,6 +63,8 @@ nnoremap <leader><tab> :NERDTreeToggle<cr>
 nnoremap <leader>g :CommandT<cr>
 nnoremap <leader>h :CommandTBuffer<cr>
 nnoremap <leader>u :GundoToggle<cr>
+nnoremap ; :
+nnoremap : ;
 let g:EasyMotion_leader_key = '<Leader>'
 
 " =======================================================================
@@ -69,12 +72,11 @@ let g:EasyMotion_leader_key = '<Leader>'
 " =======================================================================
 
 colorscheme badwolf
+let g:airline_theme='powerlineish'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep=''
 let g:airline_right_sep=''
-
-
 
 
 if !exists('g:airline_symbols')

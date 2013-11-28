@@ -63,12 +63,63 @@ nnoremap <leader><tab> :NERDTreeToggle<cr>
 nnoremap <leader>g :CommandT<cr>
 nnoremap <leader>h :CommandTBuffer<cr>
 nnoremap <leader>u :GundoToggle<cr>
+<<<<<<< HEAD
 nnoremap ; :
 nnoremap : ;
+=======
+nnoremap : ;
+nnoremap ; :
+>>>>>>> b73f20cef94a9ebd3c52dbee780c5838e42593a3
 let g:EasyMotion_leader_key = '<Leader>'
 
 " =======================================================================
 "     Styling
 " =======================================================================
 
+<<<<<<< HEAD
 colorscheme Tomorrow-Night
+=======
+colorscheme Molokai
+let g:airline_theme='powerlineish'
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" powerline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
+
+" old vim-powerline symbols
+let g:airline_left_sep = '⮀'
+let g:airline_left_alt_sep = '⮁'
+let g:airline_right_sep = '⮂'
+let g:airline_right_alt_sep = '⮃'
+let g:airline_symbols.branch = '⭠'
+let g:airline_symbols.readonly = '⭤'
+let g:airline_symbols.linenr = '⭡'
+>>>>>>> b73f20cef94a9ebd3c52dbee780c5838e42593a3

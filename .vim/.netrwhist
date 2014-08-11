@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/luizaugustoferreira/Workspace/hotsite-nova-lima/novalima'
 let g:netrw_dirhist_2='/Users/luizaugustoferreira/Workspace/hotsite-nova-lima/novalima/templates'
 let g:netrw_dirhist_3='/Users/luizaugustoferreira/Workspace/onefit'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/Users/luizaugustoferreira/Workspace/hotsite-nova-lima'
 let g:netrw_dirhist_5='/Users/luizaugustoferreira/Workspace/site-rc'
 let g:netrw_dirhist_6='/Users/luizaugustoferreira/.vim/plugin'
 let g:netrw_dirhist_7='/Users/luizaugustoferreira/.vim/colors'
+let g:netrw_dirhist_8='/Users/luizaugustoferreira/Workspace/portal-nova-lima/app/scripts'

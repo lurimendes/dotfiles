@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="steeef"
+ZSH_THEME="linuxonly"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -14,7 +14,7 @@ ZSH_THEME="steeef"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
-# Comment this out to disable bi-weekly auto-update checks
+# Uncomment this to disable bi-weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
@@ -45,14 +45,21 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/luizaugustoferreira/.rvm/bin
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$PATH:/Users/luizaugustoferreira/.rvm/gems/ruby-1.9.3-p429/bin:/Users/luizaugustoferreira/.rvm/gems/ruby-1.9.3-p429@global/bin:/Users/luizaugustoferreira/.rvm/rubies/ruby-1.9.3-p429/bin:/Users/luizaugustoferreira/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 # Aliases
-alias dvup='fab dev update'
-alias prup='fab prod update'
+alias venv='source env/bin/activate'
 alias vim='mvim -v'
-alias vimdiff='mvim -d'
+
+alias g='git'
+alias st='status'
+alias ci='commit'
+alias push='push'
+alias pull='pull'
 
 
+# Terminal navigation like VIM
+bindkey -v
+
+# Tmux coloring test
+export TERM=xterm-256color
